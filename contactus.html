@@ -1,0 +1,262 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Agency</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/contactus.css" /> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar starts Here -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="/index.html">Web Agency</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link ml-4 mr-4" href="/index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ml-4 mr-4" href="/about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ml-4 mr-4" href="/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ml-4 mr-4" href="/gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ml-4 mr-4" href="/contactus.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- navbar end Here -->
+
+      <div class="container-fluid">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/img1.jpg"
+                class="d-block w-100"
+                style="height: 40vh;"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1 style="color: #e9204f; letter-spacing: 5px;">
+                  CONTACT US
+                </h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/img2.jpg"
+                class="d-block w-100"
+                style="height: 40vh;"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1 style="color: #e9204f; letter-spacing: 5px;">
+                  CONTACT US
+                </h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/img3.jpg"
+                class="d-block w-100"
+                style="height: 40vh;"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1 style="color: #e9204f; letter-spacing: 5px;">
+                  CONTACT US
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- form -->
+    <section>
+        <div class="container mt-5 bg-light" style="border: 2px solid black; border-radius: 15px;">
+            <h2 class="mt-3">Get In Touch</h2>
+            <form action="submit.php" method="post">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">Message</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder=" Enter your Message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_name">Name</label>
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your Name" required="required" data-error="name is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_email">Email</label>
+                            <input id="form_email" type="text" name="email" class="form-control" placeholder="Enter your Email" required="required" data-error="email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_subject">Subject</label>
+                            <textarea id="form_subject" name="subject" class="form-control" placeholder="Enter your Subject" rows="2" required="required" data-error="Subject is required."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <input type="submit" name="ok" class="btn btn-primary btn-send" value="Send">
+                </div>
+            </form>
+        </div>
+    </section>
+<!-- form -->
+
+
+    <!-- footer -->
+    <footer id="footer" class="bg-dark">
+        <div class="container bg-dark mt-5">
+          <div class="row">
+            <div class="col-lg-12 col-12">
+              <ul style="float: left;" class="pt-3 pl-5">
+                <li>
+                  <a
+                    class="logo"
+                    href="#"
+                    style="font-size: 20px; text-decoration: none;"
+                    >&nbsp;&nbsp;&nbsp;Web Agency</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    style="
+                      color: #e9204f;
+                      display: inline-block;
+                      font-size: 20px;
+                      text-decoration: none;
+                    "
+                    >www.WebAgency.com</a
+                  >
+                </li>
+                <li>
+                  <h6 style="color: white; display: inline-block;">
+                    @copyright &copy; 2019-20
+                  </h6>
+                </li>
+              </ul>
+  
+              <ul style="float: right;" class="pt-3 pr-5">
+                <li style="color: rgb(23, 128, 255);">
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    style="text-decoration: none; color: white;"
+                    ><img
+                      src="./images/fbicon.png"
+                      alt=""
+                      style="
+                        height: 30px;
+                        margin-top: 0px;
+                        margin-right: 10px;
+                        margin-bottom: 10px;
+                      "
+                    />facebook
+                  </a>
+                </li>
+                <li style="color: rgb(23, 128, 255);">
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    style="text-decoration: none; color: white;"
+                    ><img
+                      src="./images/insta.png"
+                      alt=""
+                      style="
+                        height: 30px;
+                        margin-top: 0px;
+                        margin-right: 10px;
+                        margin-bottom: 10px;
+                      "
+                    />instagram</a
+                  >
+                </li>
+                <li style="color: rgb(167, 10, 23);">
+                  <a
+                    href="https://googleplus.com"
+                    target="_blank"
+                    style="text-decoration: none; color: white;"
+                    ><img
+                      src="./images/guplus.png"
+                      alt=""
+                      style="
+                        height: 30px;
+                        margin-top: 0px;
+                        margin-right: 10px;
+                        margin-bottom: 10px;
+                      "
+                    />Google<sup>+</sup></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+      </footer>
+      <!-- footer -->
+  </body>
+</html>

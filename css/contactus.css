@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+  }
+  /* web Agency */
+  .navbar-brand {
+    margin-left: 0px;
+    font-size: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+  /* Home About Services */
+  a.nav-link{
+    font-size: 16px;
+   
+  }
+  /* Hover For Home About Services*/
+  a.nav-link:hover{
+    border-top: 2px solid skyblue;
+    border-bottom: 2px solid skyblue;
+  }
+  /* Carousel Images */
+  img.d-block.w-100{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+  /* Carousel Caption */
+  div.carousel-caption.d-none.d-md-block{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  /* Carousel Heading  */
+  h1{
+    padding-top: 20px;
+    color: #00a2ff;
+    font-size: 50px;
+  }
+  /* Carousel para */
+  p{
+    padding-top: 20px;
+    color:white;
+    font-size: 35px;
+    font-family: 'Muli', sans-serif;
+  }
+  /* form */
+.form-group{
+    font-family: 'DM Serif Display', serif;
+}
+h2{
+    margin-bottom: 40px;
+    color: #e9204f;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+  /* Style all font awesome icons */
+  ul li {
+    text-decoration: none;
+    list-style: none;
+    }
+    a.logo{
+      color: white;
+      font-family: 'Baloo Bhai 2', cursive;
+    }

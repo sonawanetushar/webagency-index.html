@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "DM Serif Display", serif;
+}
+/* web Agency */
+.navbar-brand {
+  margin-left: 0px;
+  font-size: 30px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+/* Home About Services */
+a.nav-link {
+  font-size: 16px;
+}
+/* Hover For Home About Services*/
+a.nav-link:hover {
+  border-top: 2px solid skyblue;
+  border-bottom: 2px solid skyblue;
+}
+/* heading */
+div p {
+  font-size: 25px;
+  color: white;
+}
+.container p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(111, 33, 33);
+}
+a.btn {
+  border-color: #e9204f;
+  color: white;
+  background-color: #e9204f;
+}
+a.btn:hover {
+  background-color: white;
+}
+/* heading */
+
+/* services */
+.col-md-3 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.col-md-3 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.col-md-3 h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  letter-spacing: 3px;
+}
+.overlay{
+  background-color:rgba(45, 45, 45, 0.768);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  transform: translate(-0%,-0%);
+  transition: 0.4s ease;
+  opacity: 0;
+}
+img.img-fluid{
+  margin-top: 0px;
+}
+.col-md-3:hover .overlay{
+  opacity: 1;
+}
+/* services */
+
+/* testimonials */
+.card img{
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.card img.img-fluid{
+  height: 250px;
+}
